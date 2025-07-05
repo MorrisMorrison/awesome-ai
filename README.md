@@ -9,6 +9,7 @@
 
 ## Setup
 ## Install Script
+Executes all the manual setup steps listed below
 ```
 chmod +x setup-claude-code.sh
 ./setup-claude-code.sh
