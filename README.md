@@ -15,6 +15,17 @@ chmod +x setup-claude-code.sh
 ./setup-claude-code.sh
 ```
 
+  ### See what it would do (dry run)
+  ```
+  ./setup-claude-code.sh --dry-run
+  ```
+
+  ### Show help
+  ```
+  ./setup-claude-code.sh --help
+  ```
+
+
  ## Manual Setup
   ### 1. Install the hook script:
   ```
@@ -76,3 +87,17 @@ https://github.com/github/awesome-copilot
 chmod +x setup-copilot.sh
 ./setup-copilot.sh
 ```
+  ### See what it would do (dry run)
+  ```
+  ./setup-copilot.sh --dry-run
+  ```
+
+  ### Test existing installation
+  ```
+  ./setup-copilot.sh --test
+  ```
+
+  ### Show help
+  ```
+  ./setup-copilot.sh --help
+  ```
