@@ -3,11 +3,25 @@
 
 ## Claude
 ### Resources
-- https://github.com/hesreallyhim/awesome-claude-code
-- https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUDE.md
+- Collection https://github.com/hesreallyhim/awesome-claude-code
+- Claude commands and hooks used from https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUDE.md
 
+### Configuration Hierarchy
+
+  1. Global (Home Directory)
+  - ~/.claude/CLAUDE.md - Global development guidelines
+  - ~/.claude/commands/ - Global slash commands
+  - ~/.claude/hooks/ - Global hooks
+  - ~/.config/claude-code/settings.json - Global settings
+
+  2. Project-Level Override
+  - ./CLAUDE.md - Project-specific guidelines (overrides global)
+  - ./.claude/commands/ - Project-specific commands
+  - ./.claude/hooks/ - Project-specific hooks
+  - ./.claude-hooks-config.sh - Project-specific hook configuration
 
 ## Setup
+
 ## Install Script
 ### Run the setup
 ```
@@ -81,6 +95,12 @@ chmod +x setup-claude-code.sh
 
 ## Copilot
 https://github.com/github/awesome-copilot
+
+###  Configuration
+  Global Only:
+  - Chatmodes and instructions are installed globally in VS Code's configuration directory
+  - They apply to all projects when using VS Code with GitHub Copilot
+  - No project-level overrides for chatmodes/instructions
 
 ## Setup
 ### Run the setup
