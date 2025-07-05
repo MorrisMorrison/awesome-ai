@@ -9,7 +9,7 @@
 
 ## Setup
 ## Install Script
-Executes all the manual setup steps listed below
+### Run the setup
 ```
 chmod +x setup-claude-code.sh
 ./setup-claude-code.sh
@@ -83,6 +83,7 @@ chmod +x setup-claude-code.sh
 https://github.com/github/awesome-copilot
 
 ## Setup
+### Run the setup
 ```
 chmod +x setup-copilot.sh
 ./setup-copilot.sh
