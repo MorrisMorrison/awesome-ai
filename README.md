@@ -8,6 +8,13 @@
 
 
 ## Setup
+## Install Script
+```
+chmod +x setup-claude-code.sh
+./setup-claude-code.sh
+```
+
+ ## Manual Setup
   ### 1. Install the hook script:
   ```
   mkdir -p ~/.claude/hooks
