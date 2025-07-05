@@ -70,3 +70,9 @@ chmod +x setup-claude-code.sh
 
 ## Copilot
 https://github.com/github/awesome-copilot
+
+## Setup
+```
+chmod +x setup-copilot.sh
+./setup-copilot.sh
+```
