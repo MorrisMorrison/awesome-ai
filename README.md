@@ -2,8 +2,9 @@
 
 
 ## Claude
-https://github.com/hesreallyhim/awesome-claude-code
-https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUDE.md
+### Resources
+- https://github.com/hesreallyhim/awesome-claude-code
+- https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUDE.md
 
 
 ## Setup
@@ -41,14 +42,15 @@ https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUD
   ```
 
   ### 4. Configure Claude Code to use hooks:
-  Add to your ~/.config/claude-code/settings.json:
+  Add to your `~/.config/claude-code/settings.json`:
+  ```
   {
     "hooks": {
       "afterEdit": ["~/.claude/hooks/smart-lint.sh"],
       "afterTask": ["~/.claude/hooks/smart-lint.sh"]
     }
   }
-
+```
   ### 5. Test the setup:
   ```
   cd your-project
